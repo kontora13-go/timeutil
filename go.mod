@@ -1,3 +1,3 @@
-module gitlab.coolclever.tech/libs/go-core/timeutil
+module github.com/kontora13-go/timeutil
 
-go 1.22.1
+go 1.23.2
