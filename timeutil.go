@@ -1,4 +1,4 @@
-// Copyright 2024 Kontora13. All rights reserved.
+// Copyright 2024-2025 Kontora13. All rights reserved.
 // Licensed under the Apache License, Version 2.0
 
 package timeutil
@@ -6,7 +6,7 @@ package timeutil
 import "time"
 
 var (
-	defaultLocation *time.Location = time.FixedZone("Europe/Moscow", 3*3600)
+	DefaultLocation *time.Location = time.FixedZone("Europe/Moscow", 3*3600)
 )
 
 const (
@@ -20,7 +20,7 @@ const (
 
 // GetDefaultLocation - location по-умолчанию
 func GetDefaultLocation() *time.Location {
-	return defaultLocation
+	return DefaultLocation
 }
 
 // GetNowTime - получение текущего времени в соответствии с location
